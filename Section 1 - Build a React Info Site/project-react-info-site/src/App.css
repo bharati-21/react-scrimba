@@ -1,0 +1,104 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #282D35;
+  color: #fff;
+  height: 100%;
+}
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-family: 'Inter', sans-serif;  
+}
+
+.App {
+  width: 100%;
+}
+
+.container {
+  padding: 2rem 1.75rem;
+}
+
+header.header {
+  background-color: #21222A;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+.website-info {
+  color: #fff;
+  font-weight: 600;
+  line-height: 19.36px;
+}
+
+.brand {
+  font-weight: 700;
+  line-height: 26.93px;
+  margin-right: auto;
+  color:#61DAFB;
+  font-size: 1.375rem;
+}
+
+.logo {
+  height: 30px;
+  margin-right: 7px;
+  color: #00D8FF;
+}
+
+/* 
+Challenge: Place the gray react logo in the background
+
+Don't use an `img` element, but rather set it as the
+`background-image` of the `main` element.
+
+Hint: you'll need to use the following properties:
+- background-image
+- background-repeat
+- background-position
+
+(Or the shorthand `background` property with values for all
+those other properties)
+*/
+
+main.main {
+  height: 459px;
+  border-radius: 0px;
+  padding: 3.5626rem 2.6875rem;
+  background: url('./Images/react-icon-large.png') no-repeat right center;
+}
+
+.hero-head {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+}
+
+.fact-list {
+  /* color: #61dafb; */
+  margin: 1rem 0;
+
+  margin: 46px;
+  max-width: 400px;
+}
+
+.fact-list li {
+  color: #fff;
+  font-size: 16px;  
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.fact-list li::marker {
+  color: #61dafb;
+  font-size: 1.4em;
+}
+
