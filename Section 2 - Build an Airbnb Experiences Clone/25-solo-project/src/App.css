@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.header {
+    height: 55px;
+    background: #F55A5A;
+    padding: 20px 0;
+    width: 100%;
+}
+
+i.fas {
+    margin-right:0.5rem;
+}
+
+.header .logo-text {
+   text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+    max-width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 8px auto;
+    padding: 16px 8px 32px;
+    justify-content: center;
+    border-bottom: 1px solid #F5F5F5;
+
+}
+
+.card:last-child {
+    border-bottom:  none;
+}
+
+.card--image {
+    width: 125px;
+    height: 100%;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.card-text--location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.card-text--location-marker  i {
+    color: #F55A5A;
+    margin-right: 0.25rem;
+}
+
+.card-text--location-name {
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+}
+
+.card-text--location-maps-url {
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #918E9B;
+
+}
+
+.card-text--title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 7px;
+    color: #2B283A;
+    margin-bottom: 0;
+}
+
+.card-text--travel-dates {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-top: 17px;
+    color: #2B283A;
+}
+
+.card-text--description {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    text-align: justify;
+    max-width: 326px;
+    /* max-width: 100%; */
+    margin-top: 9px;
+    color: #2B283A;
+
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .card--image {
+        min-width: 100px;
+        width: 90%;
+        height: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .card-text {
+        max-width: 100%;
+    }
+    
+    .card-text--description {
+        max-width: 90%;
+    }
+}
