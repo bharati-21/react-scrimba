@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+
+section {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--photo {
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero--header {
+    margin-bottom: 16px;
+}
+
+.hero--text {
+    margin-top: 0;
+}
+
+.card-wrapper {
+    padding: 52px 36px;
+}
+
+.card {
+    background: url('./Assets/katie-zafaeres.webp') no-repeat center center/ cover;
+    max-width: 176px;
+    height: 235px;
+    border-radius: 9px;
+    position: relative;
+}
+
+.card-ticket-status {
+    position: absolute;
+    left: 6px;
+    text-transform: uppercase;
+    top: 6px;
+    padding: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 110%;
+    content : '';
+    text-align: center;
+
+    color: #222222;
+    width: 61px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 2px;
+} 
+
+.activity-info {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.star {
+    width: 14px;
+    height: 14px;
+    color: #FE395C;
+}
+
+.activity-rating {
+    margin: 0;
+    padding: 0;
+    height: 11px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    
+    color: #222222;
+}
+
+.activity-number, .activity-country {
+    font-style: normal;
+    font-weight: 300;
+    height: 10px;
+    font-size: 12px;
+    line-height: 110%;
+    /* identical to box height, or 13px */
+    color: #918E9B;
+}
+
+.activity-title {
+    margin: 8px 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    /* identical to box height, or 13px */
+    color: #222222;
+}
+
+.activity-cost {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    /* identical to box height, or 13px */
+    color: #222222;
+}
+
+.activity-cost .bold {
+    font-weight: 600;
+}
