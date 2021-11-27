@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  max-width: 100%;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 31.31px;
+  height: 26.22px;
+}
+
+h3.logo-text {
+  font-weight: bold;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
+  margin-left: 7px;
+}
+
+h4.site-info {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  margin-left: auto;
+  color: #FFFFFF;
+}
